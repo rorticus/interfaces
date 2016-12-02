@@ -5,6 +5,7 @@ import * as loader from './loader';
 import * as observables from './observables';
 import * as shim from './shim';
 import * as vdom from './vdom';
+import * as streams from './streams';
 
 export = {
 	abilities,
@@ -13,5 +14,6 @@ export = {
 	loader,
 	observables,
 	shim,
+	streams,
 	vdom
 };
